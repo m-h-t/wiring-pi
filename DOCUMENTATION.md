@@ -1031,6 +1031,8 @@ The index is from 0 to 7 and you can subsequently print the character defined us
 #### readRHT03(pin)
 <span class="api-info"><code> >= 2.0.0 </code></span>
 
+Returns an array. The first value indicates whether the sensor data was successfully read. The second and third values are temperature and humidity as integers, respectively.
+
 ### piFace
 
 #### piFaceSetup(pinBase)
